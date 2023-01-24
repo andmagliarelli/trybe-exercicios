@@ -1,0 +1,26 @@
+h1, p {
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color:blueviolet;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color:aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
