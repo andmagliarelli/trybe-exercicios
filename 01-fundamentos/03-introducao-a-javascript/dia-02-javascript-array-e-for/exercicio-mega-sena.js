@@ -54,7 +54,7 @@ console.log('MEU NÚM > ' + minhaJogada[index]);
 // FAZ A VERIFICAÇÃO
 if(megaSenaNumeros[indexMega] === minhaJogada[index]) {
 console.log('> ACERTOU') ;
-// SE ACERTOY, SOMA + 1
+// SE ACERTOU, SOMA + 1
 contagemNumerosSorteados = contagemNumerosSorteados +1;
     }
   }
@@ -63,3 +63,14 @@ contagemNumerosSorteados = contagemNumerosSorteados +1;
 console.log('Números Sorteados > '+ megaSenaNumeros);
 console.log('Minha jogada > '+ minhaJogada);
 console.log('Acertos > '+ contagemNumerosSorteados);
+
+// 1. A variável "contagemNumerosSorteados" é inicializada com o valor 0.
+// 2 . Um loop "for" é iniciado com a variável "indexMega" sendo inicializada com 0. O loop continuará enquanto "indexMega" for menor que o tamanho do array "megaSenaNumeros" e a cada iteração, "indexMega" é incrementado em 1.
+// 3. Dentro do loop, é impresso no console o texto "> Nº MEGA > " seguido pelo valor na posição "indexMega" do array "megaSenaNumeros".
+// 4. Um segundo loop "for" é iniciado com a variável "index" sendo inicializada com 0. O loop continuará enquanto "index" for menor que o tamanho do array "minhaJogada" e a cada iteração, "index" é incrementado em 1.
+// 5. Dentro do segundo loop, é impresso no console o texto "MEU NÚM > " seguido pelo valor na posição "index" do array "minhaJogada".
+// 6. Dentro do segundo loop, é verificado se o valor na posição "indexMega" do array "megaSenaNumeros" é igual ao valor na posição "index" do array "minhaJogada".
+// 7. Se a condição for verdadeira, é impresso no console o texto "> ACERTOU".
+// 8. A variável "contagemNumerosSorteados" é incrementada em 1.
+// 9. Após a finalização do segundo loop, o loop "for" iniciado no passo 2 continua até que todos os elementos do array "megaSenaNumeros" tenham sido verificados.
+// 10. Após a finalização do loop, a variável "contagemNumerosSorteados" terá o valor total de números que o jogador acertou.
