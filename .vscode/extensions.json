@@ -1,5 +1,6 @@
 {
   "recommendations": [
-    "bceskavich.theme-dracula-at-night"
+    "bceskavich.theme-dracula-at-night",
+    "ms-vscode.js-debug-nightly"
   ]
 }
