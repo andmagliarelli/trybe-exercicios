@@ -5,51 +5,51 @@
 // Divisão (a / b)
 // Módulo (a % b)
 
-// const a = 10;
-// const b = 5;
+const a = 10;
+const b = 5;
 
-// console.log(a+b);
-// console.log(a-b);
-// console.log(a*b);
-// console.log(a/b);
-// console.log(a%b);
+console.log(a+b);
+console.log(a-b);
+console.log(a*b);
+console.log(a/b);
+console.log(a%b);
 
 // Utilize if/else para escrever um código que retorne o maior de dois números. Defina, no começo do seu código, duas constantes com os valores que serão comparados.
 
-// const a = 10;
-// const b = 5;
+const a = 10;
+const b = 5;
 
-// if (a > b) {
-//   console.log(a);
-// } else {
-//   console.log(b);
-// }
+if (a > b) {
+  console.log(a);
+} else {
+  console.log(b);
+}
 
 // Utilize if/else para escrever um código que retorne o maior de três números. Defina, no começo do seu código, três constantes com os valores que serão comparados.
 
-// const c = 10;
-// const d = 5;
-// const e = 3;
+const c = 10;
+const d = 5;
+const e = 3;
 
-// if (c > d || c > e) {
-//   console.log("O maior número é ", c);
-// } else if (d > c || d > e) {
-//   console.log("O maior número é ", d);
-// } else {
-//   console.log("O maior número é ", e);
-// }
+if (c > d || c > e) {
+  console.log("O maior número é ", c);
+} else if (d > c || d > e) {
+  console.log("O maior número é ", d);
+} else {
+  console.log("O maior número é ", e);
+}
 
 // Utilize if/else para escrever um código que, dado um valor recebido como parâmetro, retorne “positive” se esse valor for positivo, “negative” se for negativo, e caso não seja nem positivo e nem negativo retorne “zero”.
 
-// valor = -5;
+valor = -5;
 
-// if (valor > 0) {
-//   console.log("O valor é POSITIVO");
-// } else if (valor < 0) {
-//   console.log("O valor é NEGATIVO");
-// } else {
-//   console.log("O valor é ZERO")
-// }
+if (valor > 0) {
+  console.log("O valor é POSITIVO");
+} else if (valor < 0) {
+  console.log("O valor é NEGATIVO");
+} else {
+  console.log("O valor é ZERO")
+}
 
 // // 🚀 Utilize if/else para escrever um código que defina três constantes com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false, caso contrário. Se algum ângulo for inválido, você deve retornar uma mensagem de erro.
 
