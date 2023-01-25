@@ -58,15 +58,76 @@ for (let index = 1; index < numbers.length; index += 1) {
 console.log(higherNumber);
 
 // Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: “nenhum valor ímpar encontrado”;
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let impares = numbers[0];
 
+//COMO EU RESOLVI:
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let impares = 0;
+
+for (let index = 0; index < numbers.length; index += 1) {
+  if (numbers[index] % 2 !== 0) {
+    impares = impares + 1;
+  } else {
+    impares = impares;
+  }
+}
+
+if (impares === 0) {
+  console.log('Nenhum valor ímpar encontrado');
+} else {
+  console.log('Encontrados ' + impares + ' valores ímpares');
+}
 
 
 // Utilizando for, descubra qual o menor valor contido no array e imprima-o;
+// COMO EU RESOLVI
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let menorNumero = numbers[0];
+
+for (let index = 0; index < numbers.length; index += 1) {
+  if (numbers[index] < menorNumero) {
+    menorNumero = numbers[index];
+  } else {
+    menorNumero = menorNumero;
+  }
+}
+console.log(menorNumero)
+
+// GABARITO
+
+// o valor da variável smallestNumber poderia ser qualquer um, desde que fosse maior que o maior número do array numbers. Caso atribuíssemos o valor 1 para a variável, nosso algoritmo estaria errado, pois ele nunca acharia um número menor que 1 no array. Para resolver esse problema vamos iniciar a variável com o primeiro valor do array. Dessa forma podemos pular a posição 0 e iniciar com index = 1
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let menorNumero = numbers[0];
+
+for (let index = 1; index < numbers.length; index += 1) {
+  if (numbers[index] < menorNumero) {
+    menorNumero = numbers[index];
+  }
+}
+
+console.log(menorNumero);
 
 
 // Utilizando for, crie um array que vá de 1 até 25 e imprima o resultado;
+// COMO EU RESOLVI
+let numbers = [];
 
+for (let index = 0; index < numbers.length; index += 1) {
+  if (index < 25) {
+  numbers.push(index + 1)
+  } 
+}
+numbers.shift()
+console.log(numbers)
+
+//GABARITO
+let numbers = [];
+
+for (let index = 1; index <= 25; index += 1) {
+  numbers.push(index);
+}
+console.log(numbers);
 
 // Utilizando o array que acabou de criar, imprima o resultado da divisão de cada um dos elementos por 2.
+for (let index = 0; index < numbers.length; index += 1) {
+  console.log(numbers[index] / 2);
+};
